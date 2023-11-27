@@ -30,6 +30,7 @@ using namespace std;
  **************************************************************************/
 
 
+/*
 
 AdductAnnotation::AdductAnnotation(MSIparameters* myMSIparams, std::vector<PeakInformation>* myPeakInformationVector, 
                                    std::vector<IsotopicPattern>* myIsotopicPatternsVector, DataFrame myAdductElementsDF)
@@ -86,6 +87,6 @@ void AdductAnnotation::run()
   Rcpp::Rcout << "\nAdductAnnotation run successful! " << adductNetworkVector.size() << " adduct networks created." << "\n";
 }
 
-
+*/
 
 

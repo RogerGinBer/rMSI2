@@ -238,8 +238,8 @@ IsotopicPattern::IsotopicPattern(PeakInformation* monoisotope, PeakInformation* 
   isotope->setIsotopicPosition(1);
   isotopicPatternPeaks.emplace_back(monoisotope);
   isotopicPatternPeaks.emplace_back(isotope);
-  adductNetworkID = -1;
-  adductElement = "";
+  // adductNetworkID = -1;
+  // adductElement = "";
 }
 
 
@@ -281,7 +281,7 @@ void IsotopicPattern::reportToConsole()
 
 }
 
-
+/*
 bool IsotopicPattern::inNetworkAsAdduct(adductElement* element)
 {
   if(adductNetworkID == -1)
@@ -301,3 +301,5 @@ int getAdductNetworkId()
 {
   return adductNetworkID;
 }
+*/
+
